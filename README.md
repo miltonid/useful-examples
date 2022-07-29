@@ -24,4 +24,14 @@ Even numbers found: 6
 Array with even numbers: 12 5222 2 4 6 20 
 ```
 
+### Example serialProtocolParser.c
+
+```
+Received Msg 1: fa fc 04 00 01 dc ff ff ff 
+parser Tag 1  Payload uint32_t Received -36 
+
+
+Received Msg 2: fa fc 02 00 02 0a 00 
+parser Tag 2  Payload uint16_t Received 10 
+```
 
